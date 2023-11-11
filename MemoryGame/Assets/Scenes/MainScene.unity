@@ -279,7 +279,7 @@ PrefabInstance:
       objectReference: {fileID: 1798817248}
     - target: {fileID: 3835626054756748904, guid: b4f7e2d7c1e21ea428df529d49f38a86, type: 3}
       propertyPath: images.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3835626054756748904, guid: b4f7e2d7c1e21ea428df529d49f38a86, type: 3}
       propertyPath: 'images.Array.data[0]'
@@ -289,6 +289,10 @@ PrefabInstance:
       propertyPath: 'images.Array.data[1]'
       value: 
       objectReference: {fileID: -5493986821363396930, guid: 522d03871f2a1404dbb382b8c566a18f, type: 3}
+    - target: {fileID: 3835626054756748904, guid: b4f7e2d7c1e21ea428df529d49f38a86, type: 3}
+      propertyPath: 'images.Array.data[2]'
+      value: 
+      objectReference: {fileID: -3681501598446695233, guid: ef1440792324f0546937dd2c22eb95b6, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
