@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameControllerScript : MonoBehaviour
 {
-    public const int columns = 2;
+    public const int columns = 3;
     public const int rows = 2;
 
     public const float Xspace = 4f;
@@ -28,7 +28,7 @@ public class GameControllerScript : MonoBehaviour
     }
     private void Start()
     {
-        int[] locations = { 0, 0, 1, 1 };
+        int[] locations = { 0, 0, 1, 1, 2, 2 };
         locations = Randomiser(locations);
 
         Vector3 startPosition = startObject.transform.position;
